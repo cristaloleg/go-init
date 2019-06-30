@@ -1,16 +1,12 @@
 language: go
 
 go:
-  - 1.6
-  - 1.7
-  - 1.8
+  - 1.x
   - tip
 
 matrix:
   allow_failures:
     - go: tip
-    - go: 1.6
-    - go: 1.7
   fast_finish: true
 
 before_install:
